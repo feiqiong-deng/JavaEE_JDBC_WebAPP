@@ -42,6 +42,7 @@
 		<h:inputText value="#{editPerson.city}" />
 
 		<br />
+		<h:commandButton value="#{uiconsts['editButtonLabel']}" action="#{personController.submitUpdatedPerson(editPerson)}" />
 		<h:outputLink value="list-people.xhtml">Back</h:outputLink>
 	</h:form>
 </h:body>
